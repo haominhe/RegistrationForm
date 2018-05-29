@@ -18,7 +18,9 @@ This project requires both front end and back end. In the front end, I use HTML,
 
 
 ./RegistrationForm/frontend/index.html
+
 ./RegistrationForm/frontend/confirmation.html
+
 ./RegistrationForm/frontend/guests.html
 
 
