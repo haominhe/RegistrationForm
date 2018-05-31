@@ -3,6 +3,7 @@
 
 ## Author: Haomin He
 
+Copyright (c) 2018 Haomin He
 
 ### Contact: haominhe6[at]gmail[dot]com
 
