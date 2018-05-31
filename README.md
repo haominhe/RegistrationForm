@@ -17,6 +17,10 @@ In this project, I want to build an event sign up form, which can be used for so
 This project requires both front end and back end. In the front end, I use HTML, JavaScript and CSS to build website structure and styling. In the back end, I use Rust for server computation and communication.
 
 
+### Get Program to Run:
+
+Run command 'cargo run' in the terminal (in the path: /RegistrationForm/backend)
+
 ### Example Screenshots:
 
 ./RegistrationForm/frontend/index.html
