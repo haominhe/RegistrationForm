@@ -1,9 +1,8 @@
 
+use std::collections::HashMap;
+
 #[derive(Serialize, Deserialize)]
-pub enum Family {
-    Object(Map<String, Head>)
-    //RANDOM STRING: Head
-}
+pub struct Family(HashMap<String, Head>);
 
 #[derive(Serialize, Deserialize)]
 pub struct Head {

@@ -17,7 +17,7 @@ use family::{Family};
 
 #[post("/", data = "<family>")]
 fn create(family: Json<Family>) -> Json<Family> {
-    family
+     family
 }
 
 #[options("/")]
