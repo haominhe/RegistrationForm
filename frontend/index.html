@@ -40,14 +40,6 @@
                 </li>
             </ul>
 
-            <!-- <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">register</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">login</a>
-                </li>
-            </ul> -->
         </div>
     </nav>
     <!-- create form -->
@@ -66,12 +58,15 @@
                             <label for="email">EMAIL ADDRESS</label>
                             <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="ENTER EMAIL">
                         </div>
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="vegetarian">
-                            <label class="form-check-label" for="vegetarian">VEGETARIAN</label>
+                        <div class="form-group">
+                            <label for="vegetarian">VEGETARIAN</label>
+                            <input class="form-control" id="vegetarian" placeholder="YES OR NO">
                         </div>
-                        <button id="add_guest" type="button" class="btn btn-success" style="margin-top:5px">
-                            <i class="fa fa-user-circle"></i> &nbsp;ADDITIONAL GUEST</button>
+                        <div class="form-group">
+                            <label for="kid">SIT AT KIDS TABLE</label>
+                            <input class="form-control" id="kid" placeholder="YES OR NO">
+                        </div>
+                    
                     </form>
                 </li>
                 </ul>
