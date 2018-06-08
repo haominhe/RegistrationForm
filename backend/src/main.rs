@@ -11,6 +11,7 @@
 // https://api.rocket.rs/rocket_contrib/enum.Value.html
 // https://github.com/pwfantasy/pwfantasy-api
 // https://github.com/blackbeam/rust-mysql-simple
+// https://github.com/diesel-rs/diesel/issues/1730
 
 
 // You may need to run the following commands in order to get this program to run: 
@@ -18,6 +19,7 @@
 // sudo apt-get install libmysqlclient-dev
 // rustup run nightly-2018-05-14 bash
 // rustup run nightly-2018-05-14 cargo install diesel_cli --no-default-features --features mysql
+// rustup run nightly-2018-05-05 bash
 
 
 #![feature(plugin)]
