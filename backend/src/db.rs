@@ -1,3 +1,4 @@
+use std::env;
 use std::ops::Deref;
 use rocket::http::Status;
 use rocket::request::{self, FromRequest};
@@ -9,10 +10,11 @@ use r2d2_diesel::ConnectionManager;
 use diesel::mysql::MysqlConnection;
 
 pub type Pool = r2d2::Pool<ConnectionManager<MysqlConnection>>;
-static DATABASE_URL: &'static str = env!("DATABASE_URL");
 
 pub fn connect() -> Pool {
-    let manager = ConnectionManager::<MysqlConnection>::new(DATABASE_URL);
+    let database_url = env::var("DATABASE_URL")
+        .expect("DATABASE_URL environment variable not set");
+    let manager = ConnectionManager::<MysqlConnection>::new(database_url);
     r2d2::Pool::builder().build(manager).expect("Failed to create pool")
 }
 
