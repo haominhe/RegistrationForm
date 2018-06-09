@@ -21,6 +21,8 @@
 // rustup run nightly-2018-05-14 cargo install diesel_cli --no-default-features --features mysql
 // rustup run nightly-2018-05-05 bash
 
+// export DATABASE_URL=mysql://root:password@localhost/guests
+
 
 #![feature(plugin)]
 #![plugin(rocket_codegen)]
