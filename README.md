@@ -32,10 +32,18 @@ http://localhost:8000/registered
 
 ### Example Screenshots:
 
-![image](https://user-images.githubusercontent.com/13125278/40683322-1d486680-6343-11e8-9481-f93fe24c496b.png)
+![image](https://user-images.githubusercontent.com/13125278/41187223-b786ea14-6b59-11e8-9d59-147c9deade3a.png)
 
 
 ![image](https://user-images.githubusercontent.com/13125278/40683380-4be99a36-6343-11e8-8306-643bc7fc5119.png)
+
+
+![image](https://user-images.githubusercontent.com/13125278/41187238-01d9c762-6b5a-11e8-83f6-5587570faf7c.png)
+
+
+![image](https://user-images.githubusercontent.com/13125278/41187253-2788eb0a-6b5a-11e8-83be-214de936d9ae.png)
+
+
 
 
 
