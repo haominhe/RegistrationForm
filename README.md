@@ -26,7 +26,7 @@ http://localhost:8000/registered
 ```
 (Note: The first two websites are used by guests for registering the event. The last two websites are used by host to display information of guests.)
 
-In the terminal, you need to create DATABASE_URL environment variable(in the path: ```/RegistrationForm/backend```):
+In the terminal, you need to create DATABASE_URL environment variable (in the path: ```/RegistrationForm/backend```):
 ```
 export DATABASE_URL=mysql://root:password@localhost/guests
 ```
