@@ -16,18 +16,28 @@ This project requires both front end and back end. In the front end, I use HTML,
 
 ### Get Program to Run:
 
-Run command 'cargo run' in the terminal (in the path: /RegistrationForm/backend)
-
 
 You may want to open the html files in your web browser: 
-
+```
 /RegistrationForm/frontend/index.html
-
 /RegistrationForm/frontend/confirmation.html
-
 /RegistrationForm/frontend/guests.html
-
 http://localhost:8000/registered
+```
+(Note: The first two websites are used by guests for registering the event. The last two websites are used by host to display information of guests.)
+
+In the terminal, you need to create DATABASE_URL environment variable(in the path: ```/RegistrationForm/backend```):
+```
+export DATABASE_URL=mysql://root:password@localhost/guests
+```
+
+Run database migration:
+```
+diesel migration run
+```
+
+Run command ```cargo run``` in the terminal.
+
 
 
 ### Example Screenshots:
